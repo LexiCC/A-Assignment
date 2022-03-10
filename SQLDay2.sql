@@ -71,17 +71,6 @@ WHERE c.CountryRegionCode = 'CA' or c.CountryRegionCode = 'DE';
 ------------------------------------------------------------------------ Using Northwnd Database:
 
 -- #14.
-SELECT p.ProductID, p.ProductName
-FROM dbo.Products p 
-WHERE p.ProductID IN (
-    SELECT od.ProductID 
-    FROM dbo.[Order Details] od
-    WHERE p.ProductID IN (
-        SELECT od.ProductID 
-        FROM dbo.[Order Details] od
-        ));
-
--- #14.
 SELECT DISTINCT p.ProductID, p.ProductName
 FROM dbo.Products p JOIN dbo.[Order Details] od ON p.ProductID = od.ProductID 
 WHERE od.OrderID IN (
