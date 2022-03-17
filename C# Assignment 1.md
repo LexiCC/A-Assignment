@@ -1,4 +1,4 @@
-#01 Introduction to C# and Data Types
+# 01 Introduction to C# and Data Types
 ## Understanding Data Types
 
 1. What type would you choose for the following “numbers”? 
@@ -25,7 +25,7 @@ Unmanaged resources are those that are not.
 4. Whats the purpose of Garbage Collector in .NET? 
 . NET's garbage collector manages the allocation and release of memory for your application.
 
-Controlling Flow and Converting Types:
+## Controlling Flow and Converting Types:
 1. What happens when you divide an int variable by 0? 
 Dividing by zero has no meaning, so undefined.
 
