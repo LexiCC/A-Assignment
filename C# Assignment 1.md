@@ -51,10 +51,10 @@ The initialization (loop variant), the condition, and the advancement to the nex
 =: used to assign value to an object or value type
 ==: is the equality operator it is used to determine if variable is equal to another variable.
 
-8.Does the following statement compile? for ( ; true; ) ; 
+8. Does the following statement compile? for ( ; true; ) ; 
 No
 
-9.What does the underscore _ represent in a switch expression?
+9. What does the underscore _ represent in a switch expression?
 The underscore (_) character replaces the default keyword to signify that it should match anything if reached.
 
 10. What interface must an object implement to be enumerated over by using the foreach statement?
