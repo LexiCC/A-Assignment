@@ -2,15 +2,15 @@
 ## Understanding Data Types
 
 1. What type would you choose for the following “numbers”? 
-   A person’s telephone number: int
-   A person’s height: double
-   A person’s age: int
-   A person’s gender (Male, Female, Prefer Not To Answer): String
-   A person’s salary A book’s ISBN A book’s price: doule
-   A book’s shipping weight: double
-   A country’s population: int
-   The number of stars in the universe: String
-   The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business) 
+  - A person’s telephone number: int
+  - A person’s height: double
+  - A person’s age: int
+  - A person’s gender (Male, Female, Prefer Not To Answer): String
+  - A person’s salary A book’s ISBN A book’s price: doule
+  - A book’s shipping weight: double
+  - A country’s population: int
+  - The number of stars in the universe: String
+  - The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business) 
 
 2. What are the difference between value type and reference type variables? What is boxing and unboxing?
 A Value Type holds the data within its own memory allocation and a Reference Type contains a pointer to another memory location that holds the real data. 
